@@ -3,81 +3,167 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Hi",
+        "Good day",
+        "Greetings",
+        "Hey there"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! Welcome to our travel agency. How can we assist you today?",
+        "Hi there! Excited to help you plan your next adventure.",
+        "Good day! Ready to explore travel options with us?",
+        "Greetings! How may I assist you in planning your dream trip?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Goodbye", "See you later", "Farewell"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Goodbye! Feel free to return whenever you have more travel inquiries.",
+        "Safe travels! See you later.",
+        "Farewell! Come back soon for more travel inspiration."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot!"],
+      "responses": ["You're welcome! If you have more questions, feel free to ask.", "Happy to assist!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "booking",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "How can I book a trip?",
+        "What's the booking process?",
+        "Can I make reservations online?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Booking your dream trip is a breeze! You can reserve your adventure online through our website or connect with our travel experts for personalized assistance.",
+        "Making reservations is simple! Explore our website for online bookings or contact our friendly travel agents for a seamless booking experience.",
+        "Ready to book your next journey? You can easily make reservations on our user-friendly website or get in touch with our expert travel team for assistance."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "payment",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What payment methods do you accept?",
+        "Can I pay with credit cards?",
+        "Are there flexible payment options?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "For your convenience, we accept various payment methods, including major credit cards and secure online transactions.",
+        "You can pay for your travel package using major credit cards or explore our flexible payment options to suit your preferences.",
+        "We offer multiple payment options, including credit cards, to make your booking process seamless and convenient."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "travel_time",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How long does it take to plan a trip?",
+        "When can I expect my travel itinerary?",
+        "What's the typical turnaround time for trip planning?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Our dedicated team ensures swift travel planning, and you can expect to receive your customized itinerary within a few days.",
+        "Rest assured, your personalized travel itinerary will be in your hands promptly. Our efficient planning ensures a quick turnaround time.",
+        "The typical turnaround time for trip planning is quick! Expect to receive your detailed itinerary within a short timeframe as we strive for efficient and personalized service."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "humor",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Tell me a travel-related joke!",
+        "Share a funny travel story!",
+        "Do you have any humorous travel anecdotes?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Why did the suitcase bring a ladder? It wanted to reach new heights!",
+        "Ever heard about the travel-holic ghost? It always goes on ghoul-getaways!",
+        "Sure, here's a travel joke for you: Why don't scientists trust atoms? Because they make up everything—just like our travel experiences!"
+      ]
+    },
+    {
+      "tag": "destinations",
+      "patterns": [
+        "Tell me about your travel destinations",
+        "What locations do you offer?",
+        "Can you suggest some travel spots?"
+      ],
+      "responses": [
+        "We offer a diverse range of destinations, from tropical beaches to cultural landmarks. Where are you interested in exploring?",
+        "Our travel destinations span the globe, including breathtaking landscapes and vibrant cities. Where would you like to go?"
+      ]
+    },
+    {
+      "tag": "travel_packages",
+      "patterns": [
+        "What kind of travel packages do you have?",
+        "Tell me about your vacation deals",
+        "Do you offer all-inclusive packages?"
+      ],
+      "responses": [
+        "Explore our variety of travel packages, from relaxing getaways to adventurous expeditions. What type of experience are you looking for?",
+        "Our travel packages cater to different preferences, whether you seek relaxation or adventure. What interests you the most?"
+      ]
+    },
+    {
+      "tag": "travel_advice",
+      "patterns": [
+        "Can you provide travel tips?",
+        "Any advice for international travel?",
+        "Share some travel hacks"
+      ],
+      "responses": [
+        "Certainly! When traveling internationally, it's essential to check visa requirements and stay informed about local customs. Do you have specific questions?",
+        "Absolutely! Before your trip, make a checklist, including essential documents and local emergency numbers. Anything specific you'd like advice on?"
+      ]
+    },
+    {
+      "tag": "special_offers",
+      "patterns": [
+        "Do you have any special offers?",
+        "Tell me about your current deals",
+        "Are there any discounts available?"
+      ],
+      "responses": [
+        "Absolutely! We have special offers on various travel packages. Would you like me to share the current deals with you?",
+        "Yes, we do! Our special offers include exclusive discounts and perks. Interested in hearing more?"
+      ]
+    },
+    {
+      "tag": "group_travel",
+      "patterns": [
+        "Can you arrange group travel?",
+        "Tell me about group booking options",
+        "Are there discounts for group trips?"
+      ],
+      "responses": [
+        "Certainly! We can arrange group travel and offer special discounts for larger bookings. What's the size of your group?",
+        "Yes, we provide options for group travel with customized itineraries and group discounts. How many people are in your group?"
+      ]
+    },
+    {
+      "tag": "customer_reviews",
+      "patterns": [
+        "Can I see customer reviews?",
+        "Tell me about client experiences",
+        "Are there testimonials available?"
+      ],
+      "responses": [
+        "Certainly! You can find customer reviews and testimonials on our website. Customers often share their wonderful experiences. Check it out!",
+        "Absolutely! Visit our website's testimonial section to read about the fantastic experiences our clients have had. Anything specific you'd like to know?"
+      ]
+    },
+    {
+      "tag": "custom_itinerary",
+      "patterns": [
+        "Can I get a custom itinerary?",
+        "Tell me about personalized travel plans",
+        "Are there options for tailor-made trips?"
+      ],
+      "responses": [
+        "Absolutely! We specialize in creating custom itineraries to suit your preferences. Would you like to discuss your ideal trip?",
+        "Yes, we offer personalized travel plans tailored to your preferences. Let's start planning your dream vacation! What are your interests?"
       ]
     }
   ]
